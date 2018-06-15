@@ -34,5 +34,5 @@ weixin:
   import:
     mpo-url: http://localhost:8080/Weixin/ImportMpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
 
-myprofileinfo: this is dps dev profile
+myprofileinfo: this is dps default profile
     
