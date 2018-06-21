@@ -32,7 +32,7 @@ weixin:
   approve:
     mpo-url:
   import:
-    mpo-url: http://localhost:8080/Weixin/ImportMpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+    mpo-url: http://dtraderp.com/Weixin/ImportMpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
 
 myprofileinfo: this is remote dps db profile
     
