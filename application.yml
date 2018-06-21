@@ -3,7 +3,7 @@ server:
 eureka:
   instance:
     preferIpAddress: true
-    ip-address: 192.168.1.89
+    ip-address: 193.112.241.49
 spring:
   datasource:
       #name: datasource
