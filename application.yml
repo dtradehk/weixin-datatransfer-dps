@@ -27,12 +27,18 @@ spring:
       poolPreparedStatements: true
       maxOpenPreparedStatements: 20
 
-#my weixin config
-weixin:
-  approve:
-    mpo-url:
-  import:
-    mpo-url: http://dtraderp.com/Weixin/ImportMpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
 
 myprofileinfo: this is remote dps db profile
-    
+
+myconfig:
+  weixin_base_url: http://dtraderp.com/Weixin
+  weixin_import_url_maps:
+    mpoexcessconfig: /Import/MpoExcessConfig?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+    jobmatstatus: /Import/JobMatStatus?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+  erp_approve_url_maps:
+    mpoexcessconfig: 
+    jobmatstatus: 
+  #my weixin account
+  weixin:
+    appid: 
+    appsecret: 
