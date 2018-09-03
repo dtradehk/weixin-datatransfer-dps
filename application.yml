@@ -34,10 +34,10 @@ myconfig:
   weixin_web_base_url: http://dtraderp.com/Weixin
   weixin_rest_base_url: http://my.eureka.gateway.zuul.com:8766/weixin-rest/rest
   weixin_import_url_maps:
-    mpoexcessconfig: /Import/MpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+    MpoExcessConfirm: /Import/MpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
     jobmatstatus: /Import/JobMatStatus?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
   erp_approve_url_maps:
-    mpoexcessconfig: 
+    MpoExcessConfirm: 
     jobmatstatus: 
   #my weixin account
   weixin:
