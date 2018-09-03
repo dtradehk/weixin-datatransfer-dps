@@ -35,7 +35,7 @@ myconfig:
   weixin_web_base_url: http://localhost:8080/Weixin
   weixin_rest_base_url: http://localhost:8081/Rest
   weixin_import_url_maps:
-    mpoexcessconfig: /Import/MpoExcessConfig?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+    mpoexcessconfig: /Import/MpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
     jobmatstatus: /Import/JobMatStatus?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
   erp_approve_url_maps:
     mpoexcessconfig: 
