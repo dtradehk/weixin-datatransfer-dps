@@ -44,3 +44,7 @@ myconfig:
   weixin:
     appid: 
     appsecret: 
+    upload-filepath: D:/WeixinTemp/Files
+    log-filepath: D:/WeixinTemp/Log
+  weixin_template_maps:
+    mpoexcessconfirm: EwaCZmKWc1aPSUxncwZiMe-iAQ5OhKchr4v7A0gacS4
