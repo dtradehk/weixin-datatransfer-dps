@@ -7,8 +7,8 @@ eureka:
 spring:
   datasource:
       #name: datasource
-      #url: jdbc:sqlserver://192.168.1.242:1433;DatabaseName=DtradeNetGarmentYorkwell
-      url: jdbc:sqlserver://192.168.1.242:1433;DatabaseName=DtradeNetGarment1506
+      url: jdbc:sqlserver://192.168.1.242:1433;DatabaseName=DtradeNetGarmentYorkwell
+      #url: jdbc:sqlserver://192.168.1.242:1433;DatabaseName=DtradeNetGarment1506
       username: '{cipher}47002453a64b9a49840f6aea799fdd03bf39544f4557cd77093d89657064e5bf'
       password: '{cipher}5f01bfa54d59d3d5a968c35ac0014b0445ae347d36d9edc5b8b0b7a1b79fa5e2'
       # 使用druid数据源
