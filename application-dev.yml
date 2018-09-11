@@ -37,6 +37,7 @@ myconfig:
   weixin_import_url_maps:
     mpoexcessconfirm: /Mpo/Import/MpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
     jobmatstatus: /Job/Import/JobMatStatus?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
+    ordercompleteprocess: /Order/Import/OrderCompleteProcess?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
   erp_approve_url_maps:
     mpoexcessconfirm: 
     jobmatstatus: 
