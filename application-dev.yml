@@ -4,6 +4,8 @@ eureka:
   instance:
     preferIpAddress: true
     ip-address: 192.168.1.89
+    lease-renewal-interval-in-seconds: 2
+    lease-expiration-duration-in-seconds: 10
 spring:
   datasource:
       #name: datasource
