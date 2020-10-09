@@ -36,6 +36,7 @@ myprofileinfo: this is remote dps db profile
 myconfig:
   weixin_web_base_url: http://dtraderp.com/Weixin
   weixin_rest_base_url: http://my.eureka.gateway.zuul.com:8766/weixin-rest/rest
+  weixin_docapp_upload_url: /docapp/import/{txntype}/{companycode}/{batchno}
   weixin_import_url_maps:
     mpoexcessconfirm: /Mpo/Import/MpoExcessConfirm?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
     jobmatstatus: /Job/Import/JobMatStatus?companycode={companycode}&batchpushid={batchpushid}&uploadall={uploadall}
